@@ -1,0 +1,40 @@
+#customers {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-size: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  margin-top: 20px;
+}
+ 
+/* Table Header */
+#customers th {
+  background-color: #f9fafb;
+  color: #1e293b;
+  font-weight: 600;
+  padding: 16px 24px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+ 
+/* Table Body */
+#customers td {
+  padding: 16px 24px;
+  color: #334155;
+  border-bottom: 1px solid #e2e8f0;
+}
+ 
+/* Hover effect on rows */
+#customers tr:hover {
+  background-color: #f1f5f9;
+  transition: background-color 0.2s ease;
+}
+ 
+/* Optional: Remove zebra striping for cleaner UI */
+#customers tr:nth-child(even) {
+  background-color: transparent;
+}

@@ -1,0 +1,99 @@
+/* --- Sidebar --- */
+.side--nav {
+  position: fixed;
+  height: 100%;
+  width: 220px;
+  background-color: #1f2937; // modern dark navy
+  color: #ffffff;
+  padding: 20px 10px;
+  z-index: 999;
+  overflow-y: auto;
+
+  .side-nav-icons {
+    color: #e2e8f0;
+    margin-right: 12px;
+    font-size: 1.2rem;
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    color: #cbd5e1;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background 0.2s;
+
+    &:hover {
+      background-color: #334155;
+      color: white;
+    }
+
+    &.active {
+      background-color: #e2e8f0;
+      color: #1e293b;
+      font-weight: 600;
+    }
+  }
+}
+
+/* --- Navbar --- */
+.navbar {
+  margin-left: 220px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  z-index: 998;
+}
+
+/* --- Navbar Brand --- */
+.navbar-brand {
+  margin-left: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f2937 !important;
+}
+
+/* --- Navbar Text --- */
+.navbar-text {
+  color: #334155;
+  margin-right: 20px;
+}
+
+/* --- Container (within Navbar) --- */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* --- Logout Button or Navbar Button --- */
+.btn-outline-dark,
+.logout-btn {
+  color: #ef4444;
+  border: 1px solid #ef4444;
+  font-weight: 500;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: #ef4444;
+    color: #ffffff;
+  }
+}
+
+/* --- Global Body Styles --- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background-color: #f8fafc; // soft light background
+  color: #475569;
+  font-size: 15px;
+}

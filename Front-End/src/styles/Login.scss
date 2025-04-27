@@ -1,0 +1,18 @@
+.login-bg {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  background-image: url(../assets/Google.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .login--row {
+    width: 85%;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    padding-left: 60%;
+    border-radius: 10px;
+  }
+  .login--row.mb-3 {
+    color: white;
+} }

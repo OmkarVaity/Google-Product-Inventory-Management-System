@@ -1,0 +1,45 @@
+.container-main {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+/* Updated main-section for better spacing and responsiveness */
+.main-section {
+  margin-left: 220px; // matches sidebar width
+  width: calc(100% - 220px);
+  padding: 30px;
+  padding-top: 100px; // 👈 pushes content below the fixed top navbar
+  background-color: #f8fafc;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Links without underline */
+a {
+  text-decoration: none !important;
+}
+
+/* Sidebar icon sizing */
+.side-nav-icons {
+  font-size: 1.5em;
+}
+
+/* Sidebar styling - modernized */
+.side--nav {
+  background-color: #1f2937 !important; // dark navy
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  z-index: 1000;
+
+  svg {
+    color: #ffffff !important;
+  }
+}

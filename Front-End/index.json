@@ -1,0 +1,64 @@
+// JSON Object of PurchaseOrder
+{
+        "id": 1,
+        "products": [
+            {
+                "id": 1,
+                "product": {
+                    "id": 3,
+                    "productName": "iPhone",
+                    "quantity": 101,
+                    "price": 50.0
+                },
+                "quantity": 100
+            }
+        ],
+        "paymentDate": "02-09-2020",
+        "paid": true,
+        "invoice": null
+    }
+
+    {
+        "id": 1,
+        "purchaseOrder": {
+            "id": 1,
+            "products": [
+                {
+                    "id": 1,
+                    "product": {
+                        "id": 3,
+                        "productName": "iPhone",
+                        "quantity": 101,
+                        "price": 50.0
+                    },
+                    "quantity": 100
+                }
+            ],
+            "paymentDate": "02-09-2020",
+            "paid": true
+        },
+        "paymentDate": "02-09-2020"
+}
+
+// PO object to use for update
+{
+        "id": 1,
+        "products": [
+            {
+                "id": 1,
+                "product": {
+                    "id": 3,
+                    "productName": "iPhone",
+                    "quantity": 101,
+                    "price": 50.0
+                },
+                "quantity": 100
+            }
+        ],
+        "buyer": {
+            "id":6
+        },
+        "paymentDueDate": "02-09-2020",
+        "paid": true,
+        "totalAmount": 5000.0
+}
