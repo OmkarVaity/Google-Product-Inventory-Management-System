@@ -29,7 +29,6 @@ We heavily utilized design patterns to ensure scalability, modularity, and maint
 
 ## 🌐 Technologies Used
 - **Java 17** (Backend)
-- **JavaFX** (Admin Frontend)
 - **Maven** (Backend Build Management)
 - **React.js** (Frontend User Interface)
 - **Node.js & npm** (Frontend Build Management)
@@ -83,7 +82,6 @@ npm start
 ---
 
 ## 📚 Project Documents
-- `Project Specification Document.md` - detailed functional and non-functional specifications
 - `DesignPattern_Team08.pptx` - overview of design patterns usage
 - `Milestone Documents` - all milestones and incremental progress
 
